@@ -19,7 +19,7 @@ setMovie(json)
 // console.log(json)
 }
 fetchMovie()
-},[])
+},[params.id])
 
   return (
     <main>
